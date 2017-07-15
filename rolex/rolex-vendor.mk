@@ -255,7 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/rolex/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/rolex/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/rolex/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/rolex/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/xiaomi/rolex/proprietary/lib64/libipanat.so:system/lib64/libipanat.so \
     vendor/xiaomi/rolex/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -269,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/rolex/proprietary/lib/hw/audio.primary.msm8937.so:system/lib/hw/audio.primary.msm8937.so \
     vendor/xiaomi/rolex/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
-    vendor/xiaomi/rolex/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/rolex/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/xiaomi/rolex/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/rolex/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
