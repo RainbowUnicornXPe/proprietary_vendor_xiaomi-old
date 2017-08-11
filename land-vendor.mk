@@ -226,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/land/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/land/proprietary/lib/hw/audio.primary.msm8937.so:system/lib/hw/audio.primary.msm8937.so \
+    vendor/xiaomi/land/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/xiaomi/land/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/xiaomi/land/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/land/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
@@ -1074,7 +1075,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
