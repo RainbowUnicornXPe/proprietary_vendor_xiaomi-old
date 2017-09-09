@@ -1452,7 +1452,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/xiaomi/land/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/land/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/land/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/land/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libprotobuf-cpp-lxpe.so:system/vendor/lib64/libprotobuf-cpp-lxpe.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libprotobuf-cpp-pxpe.so:system/vendor/lib64/libprotobuf-cpp-pxpe.so
+    
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
