@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/land/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/xiaomi/land/proprietary/bin/cnd:system/bin/cnd \
+    vendor/xiaomi/land/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/xiaomi/land/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/land/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/land/proprietary/bin/dpmd:system/bin/dpmd \
@@ -26,10 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/land/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/land/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/xiaomi/land/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/xiaomi/land/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/xiaomi/land/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/xiaomi/land/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/land/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/xiaomi/land/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/xiaomi/land/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/xiaomi/land/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/xiaomi/land/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/land/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/land/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -39,12 +39,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/land/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/land/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/xiaomi/land/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/land/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/xiaomi/land/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/land/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/xiaomi/land/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/xiaomi/land/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/land/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/land/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/land/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/xiaomi/land/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/xiaomi/land/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/land/proprietary/bin/time_daemon:system/bin/time_daemon \
