@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/xiaomi/land/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -198,8 +199,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/land/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/land/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/xiaomi/land/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/land/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/land/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/xiaomi/land/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/land/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/land/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/xiaomi/land/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
@@ -236,6 +239,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
     vendor/xiaomi/land/proprietary/usr/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
     vendor/xiaomi/land/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/xiaomi/land/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/xiaomi/land/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/xiaomi/land/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/xiaomi/land/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/xiaomi/land/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/xiaomi/land/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/land/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -1275,6 +1282,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
@@ -1339,6 +1365,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -1384,6 +1412,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -1416,6 +1445,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
