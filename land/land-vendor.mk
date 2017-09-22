@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/xiaomi/land/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/land/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/land/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/land/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/land/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -145,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/xiaomi/land/proprietary/etc/ft5336_biel_720p.ini:system/etc/ft5336_biel_720p.ini \
     vendor/xiaomi/land/proprietary/etc/ft5336_lens_720p.ini:system/etc/ft5336_lens_720p.ini \
     vendor/xiaomi/land/proprietary/etc/ft5336_oufei_720p.ini:system/etc/ft5336_oufei_720p.ini \
@@ -185,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/xiaomi/land/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/land/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/xiaomi/land/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/xiaomi/land/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
