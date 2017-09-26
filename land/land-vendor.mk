@@ -1453,23 +1453,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    colorservice \
+    com.qti.location.sdk \	
+	CNEService \
+	datastatusnotification \
+	fastdormancy \
+    ims \
+    imssettings \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
     QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
     QtiTetherService \
     qcrilmsgtunnel \
-    colorservice \
-    ims \
-    imssettings \
-    com.qti.location.sdk \
     qcnvitems \
     qcrilhook \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
     qdcm_calib_data_ili9881c_HD720p_video_Tianma \
-    qdcm_calib_data_nt35521s_HD720p_video_EBBG
+    qdcm_calib_data_nt35521s_HD720p_video_EBBG \
+    shutdownlistener \
+    TimeService
