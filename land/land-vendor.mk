@@ -171,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/xiaomi/land/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -181,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/land/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/land/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/xiaomi/land/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
     vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
@@ -1477,6 +1479,7 @@ PRODUCT_PACKAGES += \
     com.qti.location.sdk \
     qcnvitems \
     qcrilhook \
+    qti-vzw-ims-internal \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
     qdcm_calib_data_ili9881c_HD720p_video_Tianma \
     qdcm_calib_data_nt35521s_HD720p_video_EBBG
