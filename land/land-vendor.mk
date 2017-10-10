@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/land/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/land/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/xiaomi/land/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/xiaomi/land/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/land/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/land/proprietary/bin/netmgrd:system/bin/netmgrd \
