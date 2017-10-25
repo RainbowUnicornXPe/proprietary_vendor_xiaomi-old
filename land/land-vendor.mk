@@ -167,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:/system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -303,6 +304,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libqti_performance.so:/system/vendor/lib/libqti_performance.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -1317,6 +1319,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+	vendor/xiaomi/land/proprietary/vendor/lib64/libqti_performance.so:/system/vendor/lib64/libqti_performance.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
@@ -1481,6 +1484,7 @@ PRODUCT_PACKAGES += \
     com.qti.location.sdk \
     qcnvitems \
     qcrilhook \
+	QPerformance \
     qti-vzw-ims-internal \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
     qdcm_calib_data_ili9881c_HD720p_video_Tianma \
