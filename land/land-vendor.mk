@@ -1394,6 +1394,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libprotobuf-cpp-lxpe.so:system/vendor/lib64/libprotobuf-cpp-lxpe.so \
