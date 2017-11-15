@@ -231,6 +231,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/land/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/land/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/xiaomi/land/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/xiaomi/land/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -249,6 +251,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/xiaomi/land/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/xiaomi/land/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/xiaomi/land/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/land/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/land/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/land/proprietary/usr/keylayout/ft5x06_ts.kl:system/usr/keylayout/ft5x06_ts.kl \
@@ -1110,7 +1114,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -1272,11 +1275,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/librcs_jni.so:system/vendor/lib/librcs_jni.so \
     vendor/xiaomi/land/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -1289,6 +1293,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
@@ -1462,7 +1467,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
@@ -1499,11 +1503,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -1519,6 +1521,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
@@ -1530,6 +1533,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/xiaomi/land/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
