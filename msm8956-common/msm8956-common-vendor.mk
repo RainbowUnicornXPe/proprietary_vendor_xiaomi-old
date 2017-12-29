@@ -23,15 +23,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/xiaomi/msm8956-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/msm8956-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/xiaomi/msm8956-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/xiaomi/msm8956-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/xiaomi/msm8956-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/xiaomi/msm8956-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/msm8956-common/proprietary/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/xiaomi/msm8956-common/proprietary/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/xiaomi/msm8956-common/proprietary/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/xiaomi/msm8956-common/proprietary/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/xiaomi/msm8956-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/msm8956-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/msm8956-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/xiaomi/msm8956-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/xiaomi/msm8956-common/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/msm8956-common/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/xiaomi/msm8956-common/proprietary/bin/pm-service:system/vendor/bin/pm-service \
     vendor/xiaomi/msm8956-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/msm8956-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/msm8956-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \

@@ -19,13 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/bin/consumerird:system/bin/consumerird \
     vendor/xiaomi/kenzo/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/kenzo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/kenzo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/xiaomi/kenzo/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/xiaomi/kenzo/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/kenzo/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/xiaomi/kenzo/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/xiaomi/kenzo/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/xiaomi/kenzo/proprietary/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/xiaomi/kenzo/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/xiaomi/kenzo/proprietary/bin/radish:system/bin/radish \
-    vendor/xiaomi/kenzo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/kenzo/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/xiaomi/kenzo/proprietary/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/xiaomi/kenzo/proprietary/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/xiaomi/kenzo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/kenzo/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/kenzo/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
