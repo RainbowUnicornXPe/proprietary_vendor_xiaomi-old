@@ -19,9 +19,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/land/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/land/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/land/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
-    vendor/xiaomi/land/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/xiaomi/land/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/xiaomi/land/proprietary/vendor/bin/gx_fpcmd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpcmd \
+    vendor/xiaomi/land/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
+    vendor/xiaomi/land/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/land/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/land/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/xiaomi/land/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -62,51 +62,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml \
     vendor/xiaomi/land/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/land/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/xiaomi/land/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/xiaomi/land/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/xiaomi/land/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/land/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
-    vendor/xiaomi/land/proprietary/etc/firmware/hbtp/hbtpcfg_8917.dat:system/etc/firmware/hbtp/hbtpcfg_8917.dat \
-    vendor/xiaomi/land/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
-    vendor/xiaomi/land/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:system/etc/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
-    vendor/xiaomi/land/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
-    vendor/xiaomi/land/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/xiaomi/land/proprietary/etc/ft5336_biel_720p.ini:system/etc/ft5336_biel_720p.ini \
-    vendor/xiaomi/land/proprietary/etc/ft5336_lens_720p.ini:system/etc/ft5336_lens_720p.ini \
-    vendor/xiaomi/land/proprietary/etc/ft5336_oufei_720p.ini:system/etc/ft5336_oufei_720p.ini \
+    vendor/xiaomi/land/proprietary/vendor/firmware/DE.o.msm8937:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8937 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/land/proprietary/vendor/firmware/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/hbtp/hbtpcfg.dat \
+    vendor/xiaomi/land/proprietary/vendor/firmware/hbtp/hbtpcfg_8917.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/hbtp/hbtpcfg_8917.dat \
+    vendor/xiaomi/land/proprietary/vendor/firmware/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hbtp/qtc800s_dsp.bin \
+    vendor/xiaomi/land/proprietary/vendor/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AA1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/cmcc_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/ct_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/qtc800s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qtc800s.bin \
+    vendor/xiaomi/land/proprietary/vendor/firmware/qtc800s.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/qtc800s.cfg \
+    vendor/xiaomi/land/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/xiaomi/land/proprietary/vendor/etc/ft5336_biel_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_biel_720p.ini \
+    vendor/xiaomi/land/proprietary/vendor/etc/ft5336_lens_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_lens_720p.ini \
+    vendor/xiaomi/land/proprietary/vendor/etc/ft5336_oufei_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_oufei_720p.ini \
     vendor/xiaomi/land/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/xiaomi/land/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/xiaomi/land/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
@@ -121,10 +121,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/radioconfig.xml:system/etc/permissions/radioconfig.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/land/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/xiaomi/land/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
-    vendor/xiaomi/land/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/xiaomi/land/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/xiaomi/land/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
+    vendor/xiaomi/land/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/xiaomi/land/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/land/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/land/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/land/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -160,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/land/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
@@ -192,10 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libsensor_test.so:system/lib64/libsensor_test.so \
     vendor/xiaomi/land/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
@@ -1589,6 +1589,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
+    vendor.display.color@1.0 \
+    vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.fm@1.0 \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
@@ -1616,7 +1618,4 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     qcrilhook \
     qti-telephony-common \
-    qti-vzw-ims-internal \
-    qdcm_calib_data_hx8394F_HD720p_video_BOE \
-    qdcm_calib_data_ili9881c_HD720p_video_Tianma \
-    qdcm_calib_data_nt35521s_HD720p_video_EBBG
+    qti-vzw-ims-internal
