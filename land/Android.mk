@@ -19,6 +19,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),land)
 
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.display.color@1.0
 LOCAL_MODULE_OWNER := xiaomi
