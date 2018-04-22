@@ -103,12 +103,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/radioconfig.xml:system/etc/permissions/radioconfig.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/permissions/radioconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/radioconfig.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/land/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/land/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/land/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
@@ -1551,19 +1551,18 @@ PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
     libloc_api_v02 \
+    ims \
+    imssettings \
     QtiTelephonyService \
     SimSettings \
     datastatusnotification \
-    ims \
-    imssettings \
     radioconfig \
     qcrilmsgtunnel \
     TimeService \
     QPerformance \
-    QtiTelephonyServicelibrary \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
-    qcrilhook \
+    QtiTelephonyServicelibrary \
     qti-telephony-common \
     qti-vzw-ims-internal \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
