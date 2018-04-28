@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/ov13855_qtech_chromatix.xml:system/etc/camera/ov13855_qtech_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/ov13855_sunny_chromatix.xml:system/etc/camera/ov13855_sunny_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/ov5675_d5v15b_chromatix.xml:system/etc/camera/ov5675_d5v15b_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/ov5675_ofilm_chromatix.xml:system/etc/camera/ov5675_ofilm_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
@@ -36,11 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_ofilm_chromatix.xml:system/etc/camera/s5k3l8_ofilm_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_ofilm_riva_chromatix.xml:system/etc/camera/s5k3l8_ofilm_riva_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/s5k5e8_ofilm_riva_chromatix.xml:system/etc/camera/s5k5e8_ofilm_riva_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/s5k5e8_qtech_riva_chromatix.xml:system/etc/camera/s5k5e8_qtech_riva_chromatix.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
+    vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_qtech_chromatix.xml:system/etc/camera/s5k3l8_qtech_chromatix.xml \
+    vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_sunny_chromatix.xml:system/etc/camera/s5k3l8_sunny_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/xiaomi/santoni/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/xiaomi/santoni/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
