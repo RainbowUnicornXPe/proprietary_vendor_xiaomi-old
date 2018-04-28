@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/xiaomi/santoni/proprietary/lib/hw/fingerprint.searchf.so:system/lib/hw/fingerprint.searchf.so \
     vendor/xiaomi/santoni/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/xiaomi/santoni/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
     vendor/xiaomi/santoni/proprietary/lib64//hw/fingerprint.fpc.so:system/lib64//hw/fingerprint.fpc.so \
     vendor/xiaomi/santoni/proprietary/lib64//hw/fingerprint.goodix.so:system/lib64//hw/fingerprint.goodix.so \
     vendor/xiaomi/santoni/proprietary/lib64//hw/fingerprint.msm8937.so:system/lib64//hw/fingerprint.msm8937.so \
@@ -99,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/xiaomi/santoni/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/santoni/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
-    vendor/xiaomi/santoni/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     vendor/xiaomi/santoni/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
