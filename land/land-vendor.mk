@@ -1563,6 +1563,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     QtiTelephonyServicelibrary \
+    qcrilhook \
     qti-telephony-common \
     qti-vzw-ims-internal \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
