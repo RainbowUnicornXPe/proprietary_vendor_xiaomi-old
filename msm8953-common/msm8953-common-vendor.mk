@@ -520,6 +520,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     QtiTelephonyService \
     qcrilmsgtunnel \
+    colorservice \
     TimeService \
     qti-telephony-common \
     QtiTelephonyServicelibrary \
