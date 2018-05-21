@@ -1557,6 +1557,7 @@ PRODUCT_PACKAGES += \
     SimSettings \
     datastatusnotification \
     radioconfig \
+    colorservice \
     TimeService \
     qcrilmsgtunnel \
     QPerformance \
