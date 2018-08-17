@@ -1,1 +1,1 @@
-libqti-perfd-client.so
+libqti_performance.so
