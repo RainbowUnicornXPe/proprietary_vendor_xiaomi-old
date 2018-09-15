@@ -535,7 +535,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    ims \
     QtiTelephonyService \
     qcrilmsgtunnel \
     TimeService \
