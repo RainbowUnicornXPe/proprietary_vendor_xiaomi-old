@@ -56,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_ov5670_f5670bq_chromatix.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml \
+    vendor/xiaomi/land/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/xiaomi/land/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/land/proprietary/vendor/firmware/DE.o.msm8937:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8937 \
     vendor/xiaomi/land/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/land/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
@@ -100,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_biel_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_biel_720p.ini \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_lens_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_lens_720p.ini \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_oufei_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_oufei_720p.ini \
+    vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
@@ -107,7 +110,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/land/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/land/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/xiaomi/land/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/xiaomi/land/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/land/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8937.so \
@@ -139,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/land/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
+    vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
@@ -173,6 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
@@ -299,6 +307,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@2.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@2.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/land/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -1309,6 +1322,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
@@ -1329,6 +1343,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.constants@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.constants@2.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@1.0.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
@@ -1497,6 +1516,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
@@ -1520,11 +1540,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.server@1.0 \
-    com.quicinc.cne.server@2.0 \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
@@ -1532,15 +1547,12 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     libloc_api_v02 \
     ims \
-    CNEService \
     QtiTelephonyService \
     SimSettings \
     datastatusnotification \
     TimeService \
     colorservice \
     qcrilmsgtunnel \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common \
